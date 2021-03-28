@@ -15,14 +15,14 @@ import utils.DBUtil;
 /**
  * Servlet implementation class DestoroyServlet
  */
-@WebServlet("/destoroy")
-public class DestoroyServlet extends HttpServlet {
+@WebServlet("/destroy")
+public class DestroyServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public DestoroyServlet() {
+    public DestroyServlet() {
         super();
     }
 

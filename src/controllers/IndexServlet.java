@@ -40,7 +40,7 @@ public class IndexServlet extends HttpServlet {
 
         request.setAttribute("tasks", tasks);
 
-        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/tasklist/index.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/tasks/index.jsp");
         rd.forward(request, response);
     }
 
